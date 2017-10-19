@@ -1,3 +1,14 @@
+#==============================================================================================#
+#       title           :InsertionSort.py                                                      #
+#       description     :This program sorts by a sequence insertion sort algorithm             #
+#       author          :hashusfb                                                              #
+#       contact         :hashusfb@gmail.com                                                    #
+#       date            :20.10.2017                                                            #
+#       python_version  :3.6                                                                   #
+#       version         :0.1                                                                   #
+#       version_notes   :                                                                      #
+#==============================================================================================#
+
 def insertionSort(array):
     global steps
     steps=0
