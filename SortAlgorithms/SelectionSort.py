@@ -1,21 +1,29 @@
-
-arrayNumbers=[2,0,5,7,8,9,0,7,5,4,3,9]
-
-print("""Unsorted: {}""".format(arrayNumbers))
-
 def selectionSort(array):
+    global steps
+    steps=0
     temp=0
     minimum=0
     n=len(array)
     for i in range(0,n):
         minimum=i
-
         for j in range(i,n):
+            steps+=1
             if array[j] < array[minimum]:
                 minimum=j
         temp=array[i]
         array[i]=array[minimum]
         array[minimum]=temp
     return array
-
-print("""Sorted  : {}""".format(selectionSort(arrayNumbers)))
+if __name__=="__main__":
+    arrayNumbers=[23,356,75,87,48,19,780,47,75,34,13,99]
+    print("""
+#####################################################################
+    |                     Selection Sort                        | 
+    |        Time Complexity          |     Space Complexity    |
+    |  Worst  |   Best    |  Average  |           Worst         |
+    |  O(n^2) |  Ω(n^2)   |   Θ(n^2)  |           O(1)          |
+#####################################################################\n""")
+    print("""Unsorted    : {}""".format(arrayNumbers))
+    selectionSort(arrayNumbers)
+    print("""Sorted      : {}""".format(arrayNumbers))
+    print("""Total Steps : {}""".format(str(steps)))
