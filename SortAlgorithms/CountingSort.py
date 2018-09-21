@@ -1,7 +1,7 @@
 #==============================================================================================#
 #       title           :CountingSort.py                                                       #
 #       description     :This program sorts by a sequence counting sort algorithm              #
-#       author          :hashusfb                                                              #
+#       author          :Hasan Hüseyin CİHANGİR                                                #
 #       contact         :hashusfb@gmail.com                                                    #
 #       date            :20.10.2017                                                            #
 #       python_version  :3.6                                                                   #

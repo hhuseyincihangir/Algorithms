@@ -1,7 +1,7 @@
 #==============================================================================================#
 #       title           :LinearSearch.py                                                       #
 #       description     :This program searches through an array linear search algorithm        #
-#       author          :hashusfb                                                              #
+#       author          :Hasan Hüseyin CİHANGİR                                                #
 #       contact         :hashusfb@gmail.com                                                    #
 #       date            :20.10.2017                                                            #
 #       python_version  :3.6                                                                   #
@@ -12,7 +12,7 @@
 arrayNumbers=[2,0,5,7,8,9,0,7,5,4,3,9]
 intendedNumber=4
 
-def lineerSearch(array,wanted):
+def linearSearch(array,wanted):
     global find
     find=False
     for i in range(len(array)):
@@ -27,4 +27,4 @@ if __name__=="__main__":
         ###  RESULTS  ###
     Index  : {}
     Find   : {}
-    """.format(arrayNumbers,intendedNumber,lineerSearch(arrayNumbers,intendedNumber),find))
+    """.format(arrayNumbers,intendedNumber,linearSearch(arrayNumbers,intendedNumber),find))
