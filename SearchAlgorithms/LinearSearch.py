@@ -2,7 +2,7 @@
 #       title           :LinearSearch.py                                                       #
 #       description     :This program searches through an array linear search algorithm        #
 #       author          :Hasan Hüseyin CİHANGİR                                                #
-#       contact         :hashusfb@gmail.com                                                    #
+#       contact         :hhuseyincihangir@gmail.com                                            #
 #       date            :20.10.2017                                                            #
 #       python_version  :3.6                                                                   #
 #       version         :0.1                                                                   #

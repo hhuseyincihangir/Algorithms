@@ -2,7 +2,7 @@
 #       title           :InsertionSort.py                                                      #
 #       description     :This program sorts by a sequence insertion sort algorithm             #
 #       author          :Hasan Hüseyin CİHANGİR                                                #
-#       contact         :hashusfb@gmail.com                                                    #
+#       contact         :hhuseyincihangir@gmail.com                                            #
 #       date            :20.10.2017                                                            #
 #       python_version  :3.6                                                                   #
 #       version         :0.1                                                                   #
